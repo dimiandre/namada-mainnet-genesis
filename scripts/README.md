@@ -22,7 +22,7 @@ You can and should run this locally before opening a PR:
 
 ## Deep validation on PR merges
 
-Once a PR is reviewed passes the CI checks (i.e is green) and is reviewed by at least 1 person, it's sent to the merge queue. Here, CI run a second validation, which basically tries to merge the transaction/s into the genesis file and check if the resulting genesis file is valid. If the check fail, the PR is remvoed from the merge queue and the author will have to fix w/e is broken.
+Once a PR is reviewed passes the CI checks (i.e is green) and is reviewed by at least 1 person, it's sent to the merge queue. Here, CI run a second validation, which basically tries to merge the transaction/s into the genesis file and check if the resulting genesis file is valid. If the check fail, the PR is removed from the merge queue and the author will have to fix w/e is broken.
 If the check is successful, the transactions are added to the genenesis file. No more actions are required by the PR author.
 
 You can and should run this locally before opening a PR:
